@@ -201,7 +201,7 @@ function addComment() {
 }
 ```
 
-We added a line to the top of this function `event.preventDefault()`. We'll explain more about `event`s later, but for now all you need to know is that this line prevent the default action of a form, which would be submitting and reloading the page. Since we don't want to reload the page and we're writting some JavaScript to take care of the form submission, we prevent the default action.
+We added a line to the top of this function `event.preventDefault()`. We'll explain more about `event`s later, but for now all you need to know is that this line prevent the default action of a form, which would be submitting and reloading the page. Since we don't want to reload the page and we're writing some JavaScript to take care of the form submission, we prevent the default action.
 
 Let's reload `index.html` and try out our new comment form. If we did everything right, we should now be able to dynamically add comments to this blog post, and we all know the internet needed one more place where people can add comments.
 
